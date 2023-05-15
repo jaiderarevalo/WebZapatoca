@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panaderia Zapatoca</title>
+    <link class="favicon" rel="shortcut icon" href="./images/logo-zapotoca favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body class="fixed">
+    <section class="cabecera">
+        <div class="section-1">
+            <article class="images">
+                <img class="imagen" src="./images/logo-zapotoca.png">
+            </article>
+            <article class="busqueda">
+                <input class="icono-busqueda busqueda" type="text" placeholder="Busca tus productos aquí">
+                <span class="icono-busqueda"></span>
+            </article>
+        </div>
+        <div class="iconos-space">
+            <article class="ima">
+                <img class="icon" src="./ArchivosSVG/signquestion.svg">
+            </article>
+            <article class=" icon-ingresar ima">
+                <img class="icon icon-2" src="./ArchivosSVG/user.svg">
+                <p class="ingresar">Ingresar</p>
+            </article>
+            <article class="ima">
+                <img class="icon carrito" src="./ArchivosSVG/card-add.svg">
+            </article>
+        </div>
+    </section>
+    <section class="barra barra-2">
+        <div class="menu_inicial">
+            <article class="menus">
+                <img alt="menu" src="./ArchivosSVG/menu.svg">
+                <p class="texto">Categorias</p>
+            </article>
+            <article class="menus-2">
+                <img class="map" alt="map" src="./ArchivosSVG/map.svg">
+                <div>
+                    <a class="link">Ingresar Dirección</a>
+                </div>
+            </article>
+        </div>
+        <div class="menu_inicial_2">
+            <article class="Cupo">
+                <p class="texto-2">Cupo de tu Carrito <span class="span-1">express</span></p>
+            </article>
+            <article class="alerts"
+                title="Puedes agregar todos los productos que desees y programar la fecha de entrega.">
+                <img class="alert" src="./ArchivosSVG/alert.svg" alt="debes de tener en cuenta que si  ">
+            </article>
+        </div>
+    </section>
+
+
+
+    <section class="columnas">
+        <div class="columna-1">
+            <div class="ini"> inicio/Panaderia</div>
+            <div>
+                <h1 class="filtros">Filtros</h1>
+            </div>
+            <div>
+                <h2 class="marca">Por marca</h2>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" />
+                <p class="space">Vela Magica (4)</p>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" />
+                <p class="space">Zapatocapanaderia (153)</p>
+            </div>
+
+            <article>
+                <div>
+                    <h2 class="marca">Por Categoría</h2>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" />
+                    <p class="space">Panaderia (157)</p>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" />
+                    <p class="space">Pan (70)</p>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" />
+                    <p class="space">Pasteleria (87)</p>
+                </div>
+            </article>
+            <div class="porPrecio">
+                <p>Por precio</p>
+                <article>
+                    <button class="btnprecio btn-1">Limpiar</button>
+                    <button class="btnprecio btn-2">Aplicar</button>
+                </article>
+            </div>
+            <div class="container">
+
+                <div class="output">450</div>
+                <input type="range" min="450" max="49500" value="0" class="slider">
+            </div>
+
+        </div>
+        <div class="columna-2">
+            <article class="menu">
+                <div class="articulos">
+                    <p class="pagina">Articulos por pagina</p>
+                    <select class="cantidad">
+                        <option value="1">12</option>
+                        <option value="2">24</option>
+                        <option value="3">48</option>
+                    </select>
+                </div>
+                <div class="articulos-2">
+                    <p class="cambiar-vista">Cambiar vista</p>
+                    <img src="./ArchivosSVG/box.svg">
+                    <img src="./ArchivosSVG/menu2.svg">
+                </div>
+            </article>
+            <div class="allProducts">
+                <div class="encontrados">
+                    <div>
+                        <p>Ordenar por</p>
+                    </div>
+                    <select class="productodos">
+                        <option value="1">Todos los productos</option>
+                        <option value="2">Nombres ACS (A-Z)</option>
+                        <option value="3">Nombres DEC (Z-A)</option>
+                        <option value="4">Precio menor</option>
+                        <option value="5">Precio mayor</option>
+                    </select>
+                </div>
+                <div class="encontrados">
+                    <p>157 productos encontrados</p>
+                </div>
+            </div>
+            <h1>Panaderia</h1>
+            <div class="columnas_2" id="character_list">
+            </div>
+        </div>
+    </section>
+    </div>
+
+    <script src="./js/slider.js"></script>
+
+    <script src="./js/API.JS"></script>
+</body>
+
+</html>
